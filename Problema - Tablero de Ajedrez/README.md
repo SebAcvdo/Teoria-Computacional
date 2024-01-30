@@ -25,7 +25,11 @@ Al terminar, el programa imprime en consola el camino a seguir.
 ## Salida
 - Salida para 1 ficha: `[(1, 'r'), (5, 'b'), (10, 'b'), (9, 'r'), (13, 'b'), (14, 'r'), (11, 'r'), (14, 'r'), (13, 'b'), (10, 'b'), (13, 'b'), (14, 'r'), (13, 'b'), (14, 'r'), (13, 'b'), (9, 'r'), 
 (6, 'r'), (11, 'r'), (8, 'r'), (11, 'r'), (10, 'b'), (11, 'r'), (16, 'r')]`
+
+
 ![tablero](https://github.com/SebAcvdo/Teoria-Computacional/assets/101211184/c7801ab7-a0b9-47c0-81de-8af0b528cd6d)
+
+
 Utilizando el tablero como verificar si el camino cumple con llegar de la casilla 1 a la 16 mediante el camino proporcionado por el programa.
 
 
