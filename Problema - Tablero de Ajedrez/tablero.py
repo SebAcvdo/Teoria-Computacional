@@ -11,19 +11,7 @@ def main():
         print("b) 2 piezas")
         piezas = input() 
         if piezas == "a":
-            print("Elija una opción:")
-            print("a) Automático")
-            print("b) Manual")       
-            modo = input()
-
-        if(piezas == "a"):
-            if(modo == "a"): #1 pieza automatico
-                unaATM(matriz)
-                break
-            elif(modo == "b"): # 1 pieza manual
-                unaMAN(matriz)
-                break
-            else: print("Opción de modo no disponible ")
+            unaATM(matriz)
         elif(piezas == "b"):
             #2 piezas automatico
             dosATM(matriz)
@@ -63,25 +51,6 @@ def unaATM(matriz):
         moves.clear()     
         path.append(siguiente)
               
-    print(path)
-
-def unaMAN(matriz):
-    str=[]
-    print("Ingrese la cadena por colores")
-    str[:0]= input()
-    path = []
-    ficha = 1
-
-    while(ficha != 16 ):
-        i = int(math.ceil(ficha/4)) - 1
-        j = ficha - (i*4) - 1
-        moves = crearMoves(i,j,matriz,ficha)   
-
-        peso = [(d+1)*(2*d*d) for d in range(len(moves))]
-        siguiente = random.choices(moves, weights=peso, k=1)       
-        ficha = siguiente[0][0]
-        moves.clear()    
-        path.append(siguiente)
     print(path)
 
 def dosATM(matriz):
