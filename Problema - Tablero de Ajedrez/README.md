@@ -3,7 +3,7 @@
 ## Herramientas:
 
 ## Descripción del Problema
-En un tablero de 4x4, colocar una o dos piezas que tienen el comportamiento de un rey dependiendo de lo que decida el usuario. El primero se colocará en la esquina superior izquierda, teniendo como objetivo llegar a la esquina inferior derecha. El segundo, en la esquina superior derecha para llegar a la esquina inferior izquierda. Cada casilla del tablero representa un estado. 
+En un tablero de 4x4, colocar una o dos piezas que tienen el comportamiento de un rey. El primero se colocará en la esquina superior izquierda, teniendo como objetivo llegar a la esquina inferior derecha. El segundo, en la esquina superior derecha para llegar a la esquina inferior izquierda. Cada casilla del tablero representa un estado. 
 
 Genramos una cadena de r's y b's. Esta cadena representa el color rojo y negro respectivamente. Cada vez que en la cadena encontremos una 'r', significa que la ficha se tiene que mover en alguna de las casillas rojas adyacentes a su posición actual. Aunado a esto, las fichas no deben cruzar caminos en ninguna de las casillas del tablero.
 
