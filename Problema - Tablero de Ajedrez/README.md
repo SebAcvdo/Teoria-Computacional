@@ -1,2 +1,2 @@
-#Problema - Tablero de Ajedrez
+# Problema - Tablero de Ajedrez
 Hola
