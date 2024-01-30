@@ -1,7 +1,7 @@
 # Problema - Tablero de Ajedrez
 
 Problema del tablero usando python.
-
+Leer el pdf para más contexto teórico. 
 ## Descripción del Problema
 En un tablero de 4x4, colocar una o dos piezas que tienen el comportamiento de un rey. El primero se colocará en la esquina superior izquierda, teniendo como objetivo llegar a la esquina inferior derecha. El segundo, en la esquina superior derecha para llegar a la esquina inferior izquierda. Cada casilla del tablero representa un estado. 
 
